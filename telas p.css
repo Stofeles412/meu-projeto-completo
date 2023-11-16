@@ -2,8 +2,8 @@
 :root{
     --cor1:#46294a;
     --cor2: #ad4c6b;
-    --cor3:#e07767;
-    --cor4:#e0ae67;
+    --cor3:#e18b7e;
+    --cor4:#e7b978;
     --cor5:#d4e067;
 }
 *{ font-family: Arial, Helvetica, sans-serif;
@@ -53,7 +53,9 @@ header{
     }
     menu{
         display: block;
+      
     }
+     
     header a:hover{
         color: #515a04;
         text-decoration: underline;
@@ -82,7 +84,8 @@ header{
     footer{  text-decoration: none;
         text-align: center;
         background-color: var(--cor3);
-        border-radius: 10px;
+        border-radius: 20px;
+        border: solid 2px rgba(0, 0, 0, 0.45);
 
     }
     footer a{

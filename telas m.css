@@ -2,7 +2,7 @@
 :root{
     --cor1:#46294a;
     --cor2: #ad4c6b;
-    --cor3:#e07767;
+    --cor3:#d66d5c;
     --cor4:#e0ae67;
     --cor5:#d4e067;
 }
@@ -79,6 +79,7 @@ header{
     footer{  text-decoration: none;
         text-align: center;
         background-color: var(--cor3);
+        border: solid 2px rgba(0, 0, 0, 0.42);
 
     }
     footer a{
