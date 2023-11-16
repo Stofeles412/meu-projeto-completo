@@ -5,6 +5,8 @@
 
     <link rel="stylesheet" href="telas m.css" media="screen and (orientation: landscape)">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
  
         
     <meta charset="UTF-8">
@@ -15,7 +17,13 @@
 <body>
     <header>
         <h1>menu Inicial</h1>
-        <menu>
+    
+        <menu id="itens">
+            
+                <span class="material-symbols-outlined" id="itens" onclick="menu()">
+                    menu
+                    </span>
+            
             <ul>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#"> noticias</a></li>
@@ -47,7 +55,7 @@
             <ul>
                 <li>naruto</li>
                 <li>kimetsu</li>
-                <li>deth note</li>
+                <li>death note</li>
 
             </ul>
         
@@ -64,6 +72,11 @@
         </ul>
 
     </footer>
+    <script>
+    function clickMenu(){
+        itens.style.display = ('block')
+    }
+    </script>
     
     
 </body>

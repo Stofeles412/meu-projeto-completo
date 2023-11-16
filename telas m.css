@@ -48,8 +48,12 @@ header{
        
         
     }
-    menu{
-        display: block;
+    #itens{
+        display: none;
+    }
+    menu{ display: block;
+        
+        
     }
     header a:hover{
         color: #515a04;
