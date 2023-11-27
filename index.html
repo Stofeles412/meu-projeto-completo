@@ -18,9 +18,9 @@
     <header>
         <h1>menu Inicial</h1>
     
-        <menu onclick="clickMenu()">
+        <menu>
             
-                <span class="material-symbols-outlined" id="itens">
+                <span class="material-symbols-outlined" id="itens" onclick="clickMenu()">
                     menu
                     </span>
             
@@ -79,7 +79,8 @@
     </footer>
     <script>
     function clickMenu(){
-        itens.style.display = ('block')
+        var itens = window.document.getElementById('itens')
+        itens.style.display = 'inline-block'
         
         
         
