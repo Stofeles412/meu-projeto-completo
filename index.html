@@ -20,11 +20,11 @@
     
         <menu>
             
-                <span class="material-symbols-outlined" class="itens" onclick="clickMenu()">
+                <span class="material-symbols-outlined" id="itens" onclick="clickMenu()">
                     menu
                     </span>
             
-            <ul class="itens">
+            <ul>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#"> noticias</a></li>
                 <li><a href="#">Contato</a></li>
@@ -79,8 +79,8 @@
     </footer>
     <script>
     function clickMenu(){
-        var itens = window.document.getElementsByClassName('itens')
-        itens.style.display = 'block'
+        var itens = window.document.getElementById('itens')
+        itens.style.display = 'inline-block'
       
         
         
