@@ -43,6 +43,10 @@ header{
         list-style: none;
         
     }
+    #ulmenu li{ border: solid 1px black;
+        
+
+    }
     header a{
         color: var(--cor5);
         text-decoration: none;
@@ -72,9 +76,9 @@ header{
    
      
     header a:hover{
-        color: #515a04;
+        background-color: #3d1e7c5d;
         text-decoration: underline;
-        transition: .5s;
+        transition: .2s;
        
       
     }
