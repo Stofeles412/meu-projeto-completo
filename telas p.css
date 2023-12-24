@@ -64,6 +64,7 @@ header{
     menu ul{
         display: none;
         text-align: center;
+        
       
       
       
@@ -74,6 +75,7 @@ header{
         color: #515a04;
         text-decoration: underline;
         transition: .5s;
+       
       
     }
     main article ul{
