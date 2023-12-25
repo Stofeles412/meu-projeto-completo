@@ -43,7 +43,7 @@ header{
         list-style: none;
         
     }
-    #ulmenu li{ border: solid 1px black;
+    #ulmenu li{ border: solid 1px rgba(35, 14, 71, 0.339);
         
 
     }
